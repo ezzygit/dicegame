@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dice Game</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ltt6dim.css">
 </head>
 <body>
+
+    <h1 class="title"> LET'S PLAY!</h1>
     
     <div class="row"> 
     
         <div class="col-4">  
             <h3 class="yedice"> Your Dice</h3> 
             <img src="./diceassets/d1.jpg" alt="Roll: 1" id="mydice1"/>
-            <img src="./diceassets/d1.jpg" alt="Roll: 1" id="mydice1.1"/>
+            <img src="./diceassets/d2.jpg" alt="Roll: 1" id="mydice2"/>
         </div>
         
         <div class="col-4">  
-            <h3 class="yedice"> Enemy's Dice</h3>
+            <h3 class="yedice"> Enemy Dice</h3>
             <img src="./diceassets/e1.jpg" alt="Roll: 1" id="enemydice1"/>
-            <img src="./diceassets/e1.jpg" alt="Roll: 1" id="enemydice1.1"/>  
+            <img src="./diceassets/e2.jpg" alt="Roll: 1" id="enemydice2"/> 
+            <div id="enemy_score"></div> 
         </div>
         
         <div class="col-4"> 
             <img src="./diceassets/glgif.gif" id="message" alt="May The Odds Be Ever In Your Favour!"/> 
-            <button class="spicybutton" onclick="throwdice() ">Play</button>"
+            <button class="spicybutton" onclick="throwdice()">Play!</button>
         
         </div>
         
